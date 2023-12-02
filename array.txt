@@ -1,0 +1,279 @@
+////3
+////public class Main {
+////    public static void main(String[] args) {
+////        int a[]={23, 45, 82 ,27 ,66, 12, 78, 13, 71, 86};
+////        int maxvalue=0;
+////        int index=0;
+////        int i=0;
+////        for( i=0;i<=10;i++){
+////            a[i]=maxvalue;
+////            maxvalue=index;}
+////            System.out.println(maxvalue);
+////            System.out.println(index);
+////
+////    }}
+//
+////
+////import java.util.*;
+////
+//
+//////1
+////
+////import java.util.*;
+////
+////public class Main {
+////    public static int solve(int r, int unit, int arr[], int n) {
+////        if (arr == null) {
+////            return -1;
+////
+////        }
+////        int res = r * unit;
+////        int sum = 0;
+////        int count = 0;
+////        for (int i = 0; i < n; i++) {
+////            sum = sum + arr[i];
+////            count++;
+////            if (sum >= res) {
+////                break;
+////            }
+////            if (sum < res) {
+////                return 0;
+////            }
+////        }
+////        return count;
+////    }
+////
+////    public static void main(String[] args) {
+////        Scanner sc=new Scanner(System.in);
+////        int r=sc.nextInt();
+////        int unit=sc.nextInt();
+////        int arr[]={2, 8 ,3, 5, 7, 4, 1, 2,};
+////        System.out.println(solve(r, unit, arr,n);
+////    }
+////}
+////////10
+////public class Main {
+////    public static void main(String[] args) {
+////        Scanner scanner = new Scanner(System.in);
+////
+////
+////        int T = scanner.nextInt();
+////
+////
+////        int[] entry = new int[T];
+////        for (int i = 0; i < T; i++) {
+////            entry[i] = scanner.nextInt();
+////        }
+////
+////
+////        int[] exit = new int[T];
+////        for (int i = 0; i < T; i++) {
+////            exit[i] = scanner.nextInt();
+////        }
+////
+////
+////        scanner.close();
+////
+////
+////        int maxGuests = calculateMaxGuests(T, entry, exit);
+////
+////
+////        System.out.println(maxGuests);
+////    }
+////
+////
+////    private static int calculateMaxGuests(int T, int[] entry, int[] exit) {
+////        int maxGuests = 0;
+////        int currentGuests = 0;
+////
+////        for (int i = 0; i < T; i++) {
+////            currentGuests += entry[i] - exit[i];
+////            if (currentGuests > maxGuests) {
+////                maxGuests = currentGuests;
+////            }
+////        }
+////
+////        return maxGuests;
+////    }
+////}
+////9
+////import java.util.*;
+////public class Main {
+////  public static void main(String[] args) {
+////      Scanner sc=new Scanner(System.in);
+////
+////      System.out.println("two wheeler");
+////      System.out.println("fourwheeler");
+////
+////  }}
+//
+//
+//////2
+////
+////import java.util.Scanner;
+////
+////public class Main{
+////    public static void main(String[] args) {
+////        Scanner sc=new Scanner(System.in);
+////        int a= sc.nextInt();
+////        int b= sc.nextInt();
+//////        if(a<b){
+////            for(int i=a;i<=b;i++) {
+////
+////                System.out.println();
+////
+////
+////            }
+////        }
+////    }
+////}
+//
+////4
+////
+////import java.util.Scanner;
+////
+////public class Main{
+////    public static void main(String[] args) {
+////        Scanner sc=new Scanner(System.in);
+////        int k= sc.nextInt();
+////        int q= sc.nextInt();
+////        System.out.println("please enter k ya q");
+////        if(5>k ||k<40){
+////            System.out.println("invlid option");
+////        } else if (k<20)
+////        System.out.println(.1*ticket)
+//
+////6
+////
+////
+////public class Main{
+////   public static void main(String[] args) {
+////       Scanner sc=new Scanner(System.in);
+////        int a= sc.nextInt();
+////        int b= sc.nextInt();
+////        int c=sc.nextInt();
+////   }
+////
+////   }
+////
+////
+////
+////
+////
+//////        {
+//////
+//////        }
+//////
+//////        )
+//
+//
+//
+////6
+////import java.util.*;
+////public class Main {
+////    public static void main(String[] args) {
+////        Scanner sc = new Scanner(System.in);
+////        int cs = sc.nextInt();
+////        int me = sc.nextInt();
+////        int ec = sc.nextInt();
+////        System.out.println("highest placement");
+////        if (cs >= me || cs >= ec)
+////            System.out.println(cs);
+////        else if (me >= cs || me >= ec)
+////            System.out.println(me);
+////        else if (ec >= cs || ec >= me)
+////            System.out.println(ec);
+////        else
+////            System.out.println("invalid option");
+////
+////    }
+////}
+////
+//
+//
+////7
+////import java.util.*;
+////public class Main {
+////    public static void main(String[] args) {
+////        Scanner sc = new Scanner(System.in);
+////        int a = sc.nextInt();
+//
+//        import java.util.Scanner;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//
+//        System.out.println("Enter the no of liters to fill the tank");
+//        float liters = scanner.nextFloat();
+//
+//        if (liters <= 0) {
+//            System.out.println(liters + " is an Invalid Input");
+//            scanner.close();
+//            return;
+//        }
+//
+//
+//        System.out.println("Enter the distance covered");
+//        float distance = scanner.nextFloat();
+//
+//
+//        if (distance <= 0) {
+//            System.out.println(distance + " is an Invalid Input");
+//            scanner.close();
+//            return;
+//        }
+//
+//        float fuelConsumptionPer100KM = (liters / distance) * 100;
+//
+//
+//        float miles = distance * 0.6214f;
+//
+//
+//        float gallons = liters * 0.2642f;
+//
+//
+//        float fuelConsumptionMilesPerGallon = miles / gallons;
+//
+//
+//        System.out.printf("Liters/100KM\n%.2f\n", fuelConsumptionPer100KM);
+//        System.out.printf("Miles/gallons\n%.2f\n", fuelConsumptionMilesPerGallon);
+//
+//
+//    }
+//}
+////8
+///
+// public class Main {
+//
+//    public static void main(String[] arg) {
+//        int arr[] = {4, 5, 0, 1, 9, 0, 5, 0};
+//int c=0;
+//for(int i=0;i<arr.length;i++){
+//    if(arr[i]!=0){
+//        arr[c]=arr[i];
+//        c++;
+//        }
+//        }
+//for(int i=c;i<arr.length;i++){
+//    arr[i]=0;
+//        }
+//System.out.println(ArraytoString);}}
+
+//9
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc=new Scanner(System.in);
+//        int w=sc.nextInt();
+//        int v=sc.nextInt();
+//        System.out.println("total number.of wheeels");
+//        if 
+//
+//
+//
+//
+//    }
+//}
